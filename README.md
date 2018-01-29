@@ -2,7 +2,9 @@
 
 # **Web app prototype**
 
-This repository is a prototype for a web app created in Algonguin College's Graphic Design Web Dev 6 course.
+This repository is a prototype for a web app.
+Workspace is a room/workspace booking app for school campuses.
+This has been created in Algonquin College's Graphic Design Web Dev 6 course.
 
 ## **Team members**
 
