@@ -15,12 +15,77 @@ html {
   box-sizing: inherit;
 }
 
+/* Header & Footer */
+
 header,
 footer {
-  background-color: #00673E;
-  color: #fff;
+background-color: #00673E;
+color: #fff;
 }
 
 .ac-logo {
-  width: 256px;
+width: 256px;
+}
+
+/* Buttons */
+
+.btn-accent {
+  background-color: #60AA53;
+  border-color: #60AA53;
+}
+
+.btn-accent:hover {
+  background-color: #00673E;
+  border-color: #00673E;
+}
+
+.btn-ghost {
+  border-color: #60AA53;
+}
+
+.btn-ghost:hover {
+  border-color: #60AA53;
+  background-color: #E1E9E1;
+}
+
+.btn-light {
+  border-color: #E1E9E1;
+  background-color: #E1E9E1;
+}
+
+.btn-light:hover {
+  border-color: #6E9279;
+  background-color: #6E9279;
+}
+
+/* Typography */
+
+p, h1, h2, h3, h4, h5, h6 {
+  color: #222222;
+}
+
+h1 {
+  color: #00673E;
+}
+
+.availability-full {
+  color: #60AA53;
+}
+
+.availability-partial {
+  color: #E0B878;
+}
+
+/* Card */
+
+.card-full {
+  border-radius: 4px;
+  border: 3px solid #60AA53;
+  padding: 1em;
+}
+
+.card-partial {
+  border-radius: 4px;
+  border: 3px solid #E0B878;
+  padding: 1em;
 }
