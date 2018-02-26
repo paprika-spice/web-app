@@ -14,3 +14,12 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+header,
+footer {
+  background-color: #00673E;
+}
+
+.ac-logo {
+  width: 256px;
+}
