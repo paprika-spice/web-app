@@ -15,6 +15,18 @@ html {
   box-sizing: inherit;
 }
 
+/* Header & Footer */
+
+header,
+footer {
+background-color: #00673E;
+color: #fff;
+}
+
+.ac-logo {
+width: 256px;
+}
+
 /* Buttons */
 
 .btn-accent {
