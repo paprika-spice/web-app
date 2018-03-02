@@ -93,5 +93,15 @@ h1 {
 .matches-img {
   width: 100%;
   border-radius: 4px;
-  padding-right: 1em;
+  padding-right: 0;
+  padding-bottom: .5em;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .matches-img {
+    padding-right: 1em;
+    padding-bottom: 0;
+  }
+
 }
