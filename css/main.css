@@ -62,6 +62,19 @@ width: 256px;
   background-color: #6E9279;
 }
 
+.btn-ghost-card {
+  border-color: #60AA53;
+  background-color: #fff;
+  color: #60AA53;
+}
+
+.btn-ghost-card-partial {
+  border-color: #E0B878;
+  background-color: #fff;
+  color: #E0B878;
+}
+
+
 /* Typography */
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -86,12 +99,41 @@ h1 {
   border-radius: 4px;
   border: 3px solid #60AA53;
   padding: 1em;
+  text-decoration: none;
+}
+
+.card-full:hover {
+  background-color: #60AA53;
+}
+
+.card-full:hover > p,
+.card-full:hover > h4,
+.card-full:hover > .btn-ghost-card {
+  color: #fff;
+  background-color: #60AA53;
+}
+
+.card-full:hover > .btn-ghost-card,
+.card-partial:hover > .btn-ghost-card-partial {
+  border-color: #fff;
 }
 
 .card-partial {
   border-radius: 4px;
   border: 3px solid #E0B878;
   padding: 1em;
+  text-decoration: none;
+}
+
+.card-partial:hover {
+  background-color: #E0B878;
+}
+
+.card-partial:hover > p,
+.card-partial:hover > h4,
+.card-partial:hover > .btn-ghost-card-partial {
+  color: #fff;
+  background-color: #E0B878;
 }
 
 .matches-img {
