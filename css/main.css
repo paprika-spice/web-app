@@ -89,3 +89,19 @@ h1 {
   border: 3px solid #E0B878;
   padding: 1em;
 }
+
+.matches-img {
+  width: 100%;
+  border-radius: 4px;
+  padding-right: 0;
+  padding-bottom: .5em;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .matches-img {
+    padding-right: 1em;
+    padding-bottom: 0;
+  }
+
+}
