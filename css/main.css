@@ -23,6 +23,10 @@ background-color: #00673E;
 color: #fff;
 }
 
+footer > p {
+  color: #fff;
+}
+
 .ac-logo {
 width: 256px;
 }
