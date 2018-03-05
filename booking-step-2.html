@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<main class="grid gutter max-length push-2">
+
+  <div class="unit unit-s-1 unit-m-1-2">
+    <i class="icon i-128">
+      <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#feature"></use></svg>
+    </i>
+    <h2>Select your features</h2>
+  </div>
+
+  <div class="unit unit-s-1 unit-m-1-2">
+    <div class="grid gutter max-length pad-t">
+
+      <form class="unit unit-s-1 unit-m-1 push">
+        <fieldset>
+          <legend class="push-1-2">Features</legend>
+          <div class="block">
+            <input type="checkbox" id="whiteboard" name="feature">
+            <label class="push" for="whiteboard">White board</label>
+          </div>
+          <div class="block">
+            <input type="checkbox" id="projector" name="feature">
+            <label class="push" for="projector">Projector</label>
+          </div>
+          <div class="block">
+            <input type="checkbox" id="computers" name="feature">
+            <label class="push" for="computers">Computers</label>
+          </div>
+          <div class="block">
+            <input type="checkbox" id="tables" name="feature">
+            <label class="push" for="tables">Moveable tables</label>
+          </div>
+          <div class="block">
+            <input type="checkbox" id="desks" name="feature">
+            <label class="push" for="desks">Desks</label>
+          </div>
+          <div class="block">
+            <input type="checkbox" id="windows" name="feature">
+            <label class="push-0" for="windows">Windows</label>
+          </div>
+
+        </fieldset>
+
+        <a class="btn btn-ghost" href="{{sitebase.url}}/matches">Submit</a>
+      </form>
+
+    </div>
+  </div>
+
+</main>
