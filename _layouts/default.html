@@ -32,5 +32,15 @@
     </p>
   </footer>
 
+  <script src="{{site.baseurl}}/js/lottie.js"></script>
+  <script>
+    lottie.loadAnimation({
+    container: document.getElementById('lottie'), // the dom element that will contain the animation
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: '{{site.baseurl}}/images/test-lottie.json' // the path to the animation json
+  });
+  </script>
 </body>
 </html>
