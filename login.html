@@ -1,15 +1,27 @@
 ---
 layout: default
 ---
+<main class="grid gutter max-length push-2">
 
-<div class="gutter max-length main-container push-2 grid grid-middle">
   <div class="unit unit-s-1 unit-m-1-2">
-    <label for="room-date" class="push-1-4">
-      Student ID</label>
-    <input class="push" type="date" id="room-date" name="room-date" />
-    <label for="room-date" class="push-1-4">
-      Password</label>
-    <input class="push" type="date" id="room-date" name="room-date" />
-    <a itemprop="url" href="{{site.baseurl}}/home/" class="btn btn-accent">Login</a>
+    <p>Welcome to Algonquin Room booking service. Use you student ID to login. First time visitors use you birthday.</p>
   </div>
-</div>
+
+  <div class="unit unit-s-1 unit-m-1-2">
+    <div class="grid gutter max-length pad-t">
+
+      <form class="unit unit-s-1 unit-m-1 push">
+        <label for="room-date" class="push-1-4">
+          Student ID</label>
+        <input class="push" type="date" id="login-student-id" name="login-student-id" />
+        <label for="room-date" class="push-1-4">
+          Password</label>
+          <input class="push" type="date" id="login-password" name="login-password" />
+
+        <a itemprop="url" href="{{site.baseurl}}/home/" class="btn btn-accent">Login</a>
+      </form>
+
+    </div>
+  </div>
+
+</main>
