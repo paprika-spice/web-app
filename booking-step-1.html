@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<main class="grid gutter max-length push-2">
+<main class="grid gutter max-length push-2" role="main">
 
   <div class="unit unit-s-1 unit-m-1-2">
     <i class="icon i-128">
@@ -16,12 +16,12 @@ layout: default
     <div class="grid gutter max-length pad-t">
 
       <form class="unit unit-s-1 unit-m-1 push">
-        <label for="room-date" class="push-1-4">
+        <label for="room-date" class="push-1-4" tab-index="0">
           Pick a date
         </label>
         <input class="push" type="date" id="room-date" name="room-date" />
 
-        <label for="room-start-time" class="push-1-4">
+        <label for="room-start-time" class="push-1-4" tab-index="0">
           Pick a start time
         </label>
         <select class="push" name="room-start-time" id="room-start-time">
@@ -54,7 +54,7 @@ layout: default
         	<option value="9:00 PM">9:00 PM</option>
         </select>
 
-        <label for="room-end-time" class="push-1-4">
+        <label for="room-end-time" class="push-1-4" tab-index="0">
           Pick a end time
         </label>
         <select class="push" name="room-end-time" id="room-end-time">
@@ -87,7 +87,7 @@ layout: default
         	<option value="9:00 PM">9:00 PM</option>
         </select>
 
-        <a class="btn btn-ghost" href="{{sitebase.url}}/booking-step-2">Next</a>
+        <a class="btn btn-ghost" href="{{sitebase.url}}/booking-step-2" aria-label="Go to the next step to choose features">Next</a>
       </form>
 
     </div>
