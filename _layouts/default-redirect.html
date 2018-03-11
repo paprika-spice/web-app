@@ -4,24 +4,24 @@
   <meta charset="utf-8">
   <title>Workspace</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="{{site.baseurl}}/images/favicon.png" rel="icon">
   <link href="{{site.baseurl}}/css/modules.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700" rel="stylesheet">
+  <meta http-equiv="refresh" content="5; url=../home">
 </head>
 <body>
 
-  <header class="skip-links island text-center push img-flex" role="banner">
+  <header class="island text-center img-flex">
     <a href="index.html">
-      <img height="64" src="{{site.baseurl}}/images/ac-logo.svg" / alt="Algonquin College logo">
+      <img height="64" src="{{site.baseurl}}/images/ac-logo.svg" />
     </a>
   </header>
 
   {{content}}
 
-  <footer class="grid island img-flex" role="contentinfo">
+  <footer class="grid island img-flex">
     <p class="push-0 unit unit-xs-1 unit-m-1-3 unit-content-center">
       Powered by Workspace
     </p>
@@ -40,7 +40,7 @@
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: '{{site.baseurl}}/images/404.json' // the path to the animation json
+    path: '{{site.baseurl}}/images/test-lottie.json' // the path to the animation json
   });
   </script>
 </body>

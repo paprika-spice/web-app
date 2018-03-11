@@ -143,6 +143,15 @@ h1 {
   padding-bottom: .5em;
 }
 
+.confirmation {
+  background-color: #60AA53;
+  text-align: center;
+}
+
+.confirmation > p {
+  color: #fff;
+  padding: .5em 0 .5em 0
+}
 @media only screen and (min-width: 38em) {
 
   .matches-img {
