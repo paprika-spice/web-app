@@ -2,17 +2,22 @@
 layout: default
 ---
 
-<div class="gutter max-length main-container grid grid-middle push-2">
+<main class="gutter max-length main-container grid grid-middle push-2" role="main">
+
   <div class="unit xs-1 s-1 m-1 l-1 xl-1">
-    <a itemprop="url" href="{{site.baseurl}}/home/" class="btn btn-ghost push">Go back</a>
-    <img class="img-flex push" src="{{site.baseurl}}/images/room-02.jpg" />
+    <a itemprop="url" href="{{site.baseurl}}/home/" class="btn btn-ghost push" aria-label="Go back to home">Go back</a>
+    <img class="img-flex push" src="{{site.baseurl}}/images/room-02.jpg" / alt="Image of student commons work pod">
+
     <h1 class="push-1-2">Group Pod 6 - Student Commons Level 2</h1>
     <h3 class="push-0">Features</h3>
     <p>Seating for 6, TV with HDMI</p>
     <h3 class="push-0">Reservation</h3>
     <p class="push-0">Monday, September 24, 2018</p>
     <p class="push">2:00 pm – 5:00 pm</p>
-    <a class="btn btn-accent" href="#">Modify</a>
-    <a class="btn btn-ghost" href="#">Cancel Booking</a>
+
+    <a class="btn btn-accent" href="{{site.baseurl}}/booking-step-1">Modify</a>
+    <a class="btn btn-ghost" href="{{site.baseurl}}/home">Cancel Booking</a>
   </div>
-</div>
+
+</main>
+

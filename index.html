@@ -2,6 +2,29 @@
 layout: default
 ---
 
-  <h2>Mj's temporary heading</h2>
-  <h2>UX lead's temporary heading</h2>
-  <h2>Teri's temporary heading</h2>
+<main class="grid gutter max-length push-2" role="main">
+
+  <div class="unit unit-s-1 unit-m-1-2 pad-t">
+    <p>Welcome to Algonquin's room booking service. Your student ID is located on your student card. If you are a first time user please enter your birthday as you password.</p>
+  </div>
+
+  <div class="unit unit-s-1 unit-m-1-2">
+    <div class="grid gutter max-length pad-t">
+
+      <form class="unit unit-s-1 unit-m-1 push">
+
+        <label for="login-student-id" class="push-1-4" tab-index="0">
+          Student ID</label>
+        <input class="push" type="date" id="login-student-id" name="login-student-id" />
+        <label for="login-password" class="push-1-4" tab-index="0">
+          Password</label>
+          <input class="push" type="date" id="login-password" name="login-password" />
+
+        <a itemprop="url" href="{{site.baseurl}}/home/" class="btn btn-accent" aria-label="Login and go to home">Login</a>
+
+      </form>
+
+    </div>
+  </div>
+
+</main>
