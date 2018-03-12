@@ -93,6 +93,10 @@ h1 {
   color: #E0B878;
 }
 
+.white-link {
+  color: #fff;
+}
+
 /* Card */
 
 .card-full {
